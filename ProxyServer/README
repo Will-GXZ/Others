@@ -1,0 +1,14 @@
+12/15/2016
+Xiaozheng(Will) Guo
+********************
+About the program
+
+This is a simple HTTP proxy server socket program by using Python. It can store 
+web caches in declicated file structure, and can handle multiple objects from 
+different hosts.
+
+********************
+How to use
+
+To run this program, just go into this directory, type "python ProxyServer.py 
+[host ip]", and set browser to web proxy mode, port number 8887.
