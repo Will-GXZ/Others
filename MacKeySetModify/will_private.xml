@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<root>
+
+    <item>
+        <name>CapsLock + wsad to arrows</name>
+        <appendix>And modify fn/Capslock + Tab to CapsLock, and fn + F forward delete</appendix>
+        <identifier>private.CapsLock_wsad_narrow</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::W, ModifierFlag::FN,
+            KeyCode::CURSOR_UP
+        </autogen>
+
+        <autogen>
+            __KeyToKey__
+            KeyCode::S, ModifierFlag::FN,
+            KeyCode::CURSOR_DOWN
+        </autogen>
+
+        <autogen>
+            __KeyToKey__
+            KeyCode::A, ModifierFlag::FN,
+            KeyCode::CURSOR_LEFT
+        </autogen>
+
+        <autogen>
+            __KeyToKey__
+            KeyCode::D, ModifierFlag::FN,
+            KeyCode::CURSOR_RIGHT
+        </autogen>
+
+        <autogen>
+            __KeyToKey__
+            KeyCode::TAB, ModifierFlag::FN,
+            KeyCode::CAPSLOCK
+        </autogen>
+
+        <autogen>
+            __KeyToKey__
+            KeyCode::F, ModifierFlag::FN,
+            KeyCode::FORWARD_DELETE
+        </autogen>
+    </item>
+
+</root>
