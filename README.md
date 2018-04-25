@@ -1,6 +1,6 @@
 # Others
 
-[header1](#header1)
+[header1](#1-header1)
 
 ads  
 asd  
@@ -12,5 +12,5 @@ asdasd
 adad  
 adasd  
 
-## header1
+## 1. header1
 Some small projects, or just write something randomly.
